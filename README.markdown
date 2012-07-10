@@ -4,8 +4,7 @@ This is a thin wrapper around the [Podio API](https://developers.podio.com/) for
 # Usage
 
     // Initialize and specify client id and secret
-    var Podio = require('podiojs');
-    var podio = new Podio();
+    var podio = require('podiojs');
     podio.client.client_id = 'CLIENT_ID';
     podio.client.client_secret = 'CLIENT_SECRET';
 
