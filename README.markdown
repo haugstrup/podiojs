@@ -22,6 +22,10 @@ This is a thin wrapper around the [Podio API](https://developers.podio.com/) for
       });
     });
 
+# Install
+
+  npm install git://github.com/haugstrup/podiojs.git#v0.1.0
+
 # Methods
 
   podio.authenticate(grant_type, attributes, [callback])
