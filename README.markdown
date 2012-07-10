@@ -24,15 +24,15 @@ This is a thin wrapper around the [Podio API](https://developers.podio.com/) for
 
 # Install
 
-  npm install git://github.com/haugstrup/podiojs.git#v0.1.0
+  	npm install git://github.com/haugstrup/podiojs.git#v0.1.0
 
 # Methods
 
-  podio.authenticate(grant_type, attributes, [callback])
-  podio.request(method, url, attributes, [options], [callback])
-  podio.get(url, attributes, [options], [callback])
-  podio.post(url, attributes, [options], [callback])
-  podio.put(url, attributes, [options], [callback])
+  	podio.authenticate(grant_type, attributes, [callback])
+  	podio.request(method, url, attributes, [options], [callback])
+  	podio.get(url, attributes, [options], [callback])
+  	podio.post(url, attributes, [options], [callback])
+  	podio.put(url, attributes, [options], [callback])
 
 Callback receives two arguments: `response` (ClientResponse object) and `body` (JSON object of the HTTP body)
 
