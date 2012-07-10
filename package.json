@@ -1,11 +1,11 @@
 {
-  "name": "podio-js",
+  "name": "podiojs",
   "version": "0.1.0",
   "description": "Nodejs wrapper for the Podio API",
   "main": "lib/podio.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/haugstrup/podio-js"
+    "url": "http://github.com/haugstrup/podiojs"
   },
   "author": "Andreas Haugstrup Pedersen",
   "license": "MIT"
